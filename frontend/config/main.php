@@ -13,6 +13,12 @@ return [
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
     'language' => 'ru',
+//    'modules' => [
+//        'debug' => [
+//            'class' => 'yii\debug\Module',
+//            'allowedIPs' => ['*']
+//        ]
+//    ],
     'components' => [
         'request' => [
             'baseUrl' => '',
